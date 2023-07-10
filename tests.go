@@ -46,6 +46,10 @@ func (c *C) del(key string) bool {
 	return c.tree.Delete([]byte(key))
 }
 
+//func (c *C) get(key string) bool {
+//return c.tree.Get(key)
+//}
+
 // func main() {
 // fmt.Println("vim-go")
 // }

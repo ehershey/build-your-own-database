@@ -1,5 +1,5 @@
 main: *.go
-	go build -o main main.go btree.go  tests.go  savedata.go
+	go build -o main *.go
 
 run: main
 	./main

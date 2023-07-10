@@ -27,4 +27,6 @@ func main() {
 	fmt.Println("Creating Btree test struct")
 	c := newC()
 	fmt.Println(c)
+	c.add("name", "Ernie")
+	fmt.Println(c)
 }
